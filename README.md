@@ -6,7 +6,7 @@
 ## Hardware components
 Here are photos that contain all of our hardware components.
 
-![](header.png)
+![](https://github.com/SmartestKen/Flyception-3D/blob/master/Hardware.png)
 
 
 Notice that the chessboard is required to have the size of (a,b), where both a and b are odd numbers. We use 9x7 for our application. For explanation, please check **defOrigin.cpp** description below.
@@ -40,8 +40,14 @@ Here is the data flow chart of our application.
 
 
 ## Simulation example and error plot
-![Alt Text](https://github.com/SmartestKen/Flyception-3D/blob/master/LED_trajectory_at_z0.gif)
-![Alt Text](https://github.com/SmartestKen/Flyception-3D/blob/master/LED_trajectory_above_z0.gif)
+
+Z = 0 calculated Trajectory      |  Z = 0 real trajectory
+:-------------------------:|:-------------------------:
+![](https://github.com/SmartestKen/Flyception-3D/blob/master/LED_trajectory_at_z0.gif) |  ![](https://...Ocean.png)
+
+Z > 0 calculated Trajectory      |  Z > 0 real trajectory
+:-------------------------:|:-------------------------:
+![](https://github.com/SmartestKen/Flyception-3D/blob/master/LED_trajectory_above_z0.gif) |
 
 The only assumption of the algorithm is that the moving object has to be the much brighter than its surrounding. This assumption is made to compensate for our workstation CPU limitation (i7-7700, 4 cores, 8 threads). You can modify Flyception_main.cpp to perform contour detection if the assumption above is not suitable.
 

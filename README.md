@@ -11,9 +11,9 @@ Here are photos that contain all of our hardware components.
 
 Notice that the chessboard is required to have the size of (a,b), where both a and b are odd numbers. We use 9x7 for our application. For explanation, please check **defOrigin.cpp** description below.
 
-The following are names of some hardware
+The following are specifications of some hardware
 
-| | Component Names|
+| | Component Specifications|
 |---|---|
 | CPU | i7-7700 (4 cores, 8 threads) |
 | Memory | 8GB |

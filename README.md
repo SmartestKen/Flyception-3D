@@ -13,6 +13,8 @@ Notice that the chessboard is required to have the size of (a,b), where both a a
 
 The following are names of some hardware
 
+| | Component Names|
+|---|---|
 | CPU | i7-7700 (4 cores, 8 threads) |
 | Memory | 8GB |
 | Hard drive | Western Digital Blue 2.5" 256GB SSD |

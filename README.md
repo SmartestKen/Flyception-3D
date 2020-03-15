@@ -11,8 +11,17 @@ Here are photos that contain all of our hardware components.
 
 Notice that the chessboard is required to have the size of (a,b), where both a and b are odd numbers. We use 9x7 for our application. For explanation, please check **defOrigin.cpp** description below.
 
-The following are specifications of some of the hardware
-![](https://github.com/SmartestKen/Flyception-3D/blob/master/Config.png)
+The following are names of some hardware
+
+| CPU | i7-7700 (4 cores, 8 threads) |
+| Memory | 8GB |
+| Hard drive | Western Digital Blue 2.5" 256GB SSD |
+| Arduino | Uno smd edition|
+| DAQ | Sensoray 826 |
+| Low-speed cameras | FLIR Blackfly S BFS-U3-16S2M |
+| Galvo | Thorlab GVS012 |
+| High-speed cameras | Phantom VEO 410L |
+
 
 ## Software components
 Here is the data flow chart of our application.

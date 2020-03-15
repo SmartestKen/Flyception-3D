@@ -11,6 +11,8 @@ Here are photos that contain all of our hardware components.
 
 Notice that the chessboard is required to have the size of (a,b), where both a and b are odd numbers. We use 9x7 for our application. For explanation, please check **defOrigin.cpp** description below.
 
+The following are specifications of some of the hardware
+![](https://github.com/SmartestKen/Flyception-3D/blob/master/Config.png)
 
 ## Software components
 Here is the data flow chart of our application.

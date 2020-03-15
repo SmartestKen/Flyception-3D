@@ -39,8 +39,9 @@ Here is the data flow chart of our application.
 
 
 
-## Simulation/Usage example
-If you have setup identical hardwares and wish to simulate tracking, please download the repository and directly launch Flyception_main.exe. The executable uses relative paths and should start tracking directly as long as the repository folder is unmodified. 
+## Simulation example and error plot
+![Alt Text](https://github.com/SmartestKen/Flyception-3D/LED_trajectory_at_z0.gif)
+![Alt Text](https://github.com/SmartestKen/Flyception-3D/LED_trajectory_above_z0.gif)
 
 The only assumption of the algorithm is that the moving object has to be the much brighter than its surrounding. This assumption is made to compensate for our workstation CPU limitation (i7-7700, 4 cores, 8 threads). You can modify Flyception_main.cpp to perform contour detection if the assumption above is not suitable.
 
@@ -52,4 +53,4 @@ The only assumption of the algorithm is that the moving object has to be the muc
 
 
 ## Bug reports/Feature suggestions/Inquiries
-Please submit an issue or pull request. You can also contact ngravish@ucsd.edu.
+Please submit an issue or pull request. You can also reach Prof. Nicholas Gravish, the sponsor of this project, at ngravish@ucsd.edu.

@@ -96,5 +96,5 @@ The std values implies that the tracking is marginally more stable when the LED 
 - Spinnaker Library (full version 1.27.0.48_x64)
 
 
-## Bug reports/Feature suggestions/Inquiries
+## Feedback/Inquiries
 Please submit an issue or pull request. You can also reach Prof. Nicholas Gravish, the sponsor of this project, at ngravish@ucsd.edu.

@@ -1,0 +1,213 @@
+---------or ensure that it cannot enable file transfer/preview
+---------can block download link/domain
+---------or just allow the useful link
+---------can block the user page
+
+
+
+
+-----------------can login but file transfer disabled----------------------
+
+
+google.com *google.com
+ab google.com ^http(|s):\/\/google\.com\/.*tbm=isch.*$
+ab www.google.com ^http(|s):\/\/www\.google\.com\/.*tbm=isch.*$
+s mail.google.com
+ba drive.google.com ^http(|s):\/\/drive\.google\.com\/a\/eng\.ucsd\.edu\/file\/d\/.*$
+ba sites.google.com ^http(|s):\/\/sites\.google\.com\/a\/eng\.ucsd\.edu(|\/.*)$
+b play.google.com
+b images.google.com
+
+googleapis.com *googleapis.com
+gstatic.com *gstatic.com
+googleusercontent.com *googleusercontent.com
+a admin.googleusercontent.com
+s mail-attachment.googleusercontent.com
+s *-7s-docs.googleusercontent.com
+b *googleusercontent.com
+
+
+canvaslms.com sso.canvaslms.com
+instructure.com canvadocs.instructure.com
+iclicker.com lmsreg.iclicker.com
+cloudfront.net *cloudfront.net
+a du11hjcvx0uqb.cloudfront.net
+a d3qz995is0z3gl.cloudfront.net
+b *cloudfront.net
+
+
+ucsd.edu *ucsd.edu
+ab canvas.ucsd.edu ^http(|s):\/\/canvas\.ucsd\.edu\/files(|\/.*)$
+
+
+
+live.com *live.com
+s login.live.com
+s outlook.live.com
+s account.live.com
+b *live.com
+office365.com ow2.res.office365.com
+msauth.net logincdn.msauth.net
+
+
+
+slack.com *slack.com
+s edgeapi.slack.com
+s gravishteam.slack.com
+s wss-primary.slack.com
+bs app.slack.com ^http(|s):\/\/app\.slack\.com\/(auth\?.*|client\/TQ86KTW74(|\/.*))$
+bs slack.com ^http(|s):\/\/slack\.com\/checkcookie\?redir=.*$
+b *slack.com
+slack-edge.com a.slack-edge.com
+
+piazza.com *piazza.com
+s *piazza.com
+
+
+yutsumura.com yutsumura.com
+ab yutsumura.com ^http(|s):\/\/yutsumura\.com\/membership.*$
+
+
+
+
+------------can login but verified with no file transfer-------
+
+python.org pypi.python.org
+pypi.org pypi.org
+pythonhosted.org files.pythonhosted.org 
+
+
+technolutions.net *cdn.technolutions.net
+applyweb.com *applyweb.com
+collegenet.com *collegenet.com
+
+geeksforgeeks.org www.geeksforgeeks.org
+
+
+
+stackoverflow.com stackoverflow.com
+stackexchange.com *stackexchange.com
+sstatic.net cdn.sstatic.net
+superuser.com superuser.com
+askubuntu.com askubuntu.com
+serverfault.com serverfault.com
+mathoverflow.net mathoverflow.net
+imgur.com i.stack.imgur.com
+cloudflare.com cdnjs.cloudflare.com
+
+
+sdge.com myaccount.sdge.com
+nobelcourt.com www.nobelcourt.com
+securecafe.com nobelcourt.securecafe.com
+bootstrapcdn.com *bootstrapcdn.com
+rentcafe.com cdngeneral.rentcafe.com
+
+
+chase.com *chase.com
+chasecdn.com *chasecdn.com
+
+boltdepot.com www.boltdepot.com
+
+gradescope.com www.gradescope.com
+
+
+--------------not loginable---------------------------------
+
+android.com *android.com
+mitmproxy.org *mitmproxy.org
+
+
+telephony.goog web.voice.telephony.goog
+36.144 216.239.36.144
+
+
+github.com github.com
+ba github.com ^http(|s):\/\/github\.com\/(sagemath|dgrover|mitmproxy|EthACKdotOrg)(|\/.*)$
+
+
+
+githubassets.com github.githubassets.com
+
+
+
+semanticscholar.org pdfs.semanticscholar.org
+ac.uk *ac.uk
+
+
+cplusplus.com www.cplusplus.com
+ba www.cplusplus.com ^http(|s):\/\/www\.cplusplus\.com\/reference(|\/.*)$
+cppreference.com en.cppreference.com
+ba en.cppreference.com ^http(|s):\/\/en\.cppreference\.com\/w\/cpp(|\/.*)$
+
+
+
+online2pdf.com *online2pdf.com
+
+mathjax.org cdn.mathjax.org
+mathworks.com www.mathworks.com
+
+
+
+
+
+sagemath.org *sagemath.org
+a doc.sagemath.org
+a trac.sagemath.org
+ba ask.sagemath.org ^http(|s):\/\/ask\.sagemath\.org\/questions(|\/.*)$
+b *sagemath.org
+
+
+obspm.fr sagemanifolds.obspm.fr
+libgen.is libgen.is
+95.29 93.174.95.29
+libgen.lc libgen.lc
+booksdl.org booksdl.org
+ets.org *ets.org
+arxiv.org *arxiv.org
+ab arxiv.org ^http(|s):\/\/arxiv\.org\/user(|\/.*)$
+a static.arxiv.org
+b *arxiv.org
+
+
+duosecurity.com api-ce13a1a7.duosecurity.com
+ams.org www.ams.org
+
+
+ubuntu.com *ubuntu.com
+a packages.ubuntu.com
+a us.archive.ubuntu.com
+a security.ubuntu.com
+b *ubuntu.com
+
+
+opencv.org docs.opencv.org
+flir.com softwareservices.flir.com
+
+
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
+github.com github.com
+b github.com ^http(|s):\/\/github\.com\/SmartestKen\/SiteInfo(|\/(blob|raw)\/master\/.*)$
+githubusercontent.com raw.githubusercontent.com
+githubassets.com github.githubassets.com
+amazonaws.com *amazonaws.com
+
+
+maxcdn.bootstrapcdn.com
+netdna.bootstrapcdn.com
+
+
+
+
+
+canvas-user-content.com *canvas-user-content.com
+amazonaws.com instructure-uploads.s3.amazonaws.com
+inscloudgate.net inst-fs-iad-prod.inscloudgate.net
+
+cloudflare.com *cloudflare.com
+cloudfront.net *cloudfront.net
+b d1b10bmlvqabco.cloudfront.net

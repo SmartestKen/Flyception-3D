@@ -84,8 +84,8 @@ Here is the error plot and data. By error we mean deviation of LED from the cent
 | ratio (against diagonal size) at z > 0 | 0.0183 | 0.0101|
 
 
-The plot and mean values indicates that our applications work as long as the magnitude of z stays in the constained space.
-The std values implies that the tracking is marginally more stable when the LED is on the x-y plane and becomes increasingly imprecise as z goes higher. 
+The plot and mean values indicate that our application works as long as the magnitude of z stays in the constained space.
+The std values implies that the tracking is marginally more stable when the LED is on the x-y plane, and becomes increasingly imprecise as z goes higher. 
 
 
 

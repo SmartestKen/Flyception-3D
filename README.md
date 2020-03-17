@@ -40,7 +40,7 @@ The following are specifications of some hardware
 Here is the data flow chart of our application.
 ![](https://github.com/SmartestKen/Flyception-3D/blob/master/Flowchart.png)
 
-The following are explanations of the strucutre of the repository
+The following are explanations of the structure of the repository
 
 | File/Folders | Purpose |
 |--- | --- | 

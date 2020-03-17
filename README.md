@@ -11,6 +11,17 @@ Here are photos that contain all of our hardware components.
 
 Notice that the chessboard is required to have the size of (a,b), where both a and b are odd numbers. We use 9x7 for our application. For explanation, please check **defOrigin.cpp** description below.
 
+
+Here are CAD of the critical galvo and high-speed camera component,
+
+| galvo CAD | high-speed camera CAD|
+|---|---|
+| ![](https://github.com/SmartestKen/Flyception-3D/blob/master/CAD1.jpg) | ![](https://github.com/SmartestKen/Flyception-3D/blob/master/CAD2.png) |
+
+which give the following galvo-camera assembly.
+
+![](https://github.com/SmartestKen/Flyception-3D/blob/master/CAD_combined.jpg)
+
 The following are specifications of some hardware
 
 | | Component Specifications|

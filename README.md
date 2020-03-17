@@ -14,13 +14,14 @@ Notice that the chessboard is required to have the size of (a,b), where both a a
 
 Here are the CAD of the critical galvo and high-speed camera components,
 
-| galvo component | high-speed camera component |
+| | CAD |
 |---|---|
-| ![](https://github.com/SmartestKen/Flyception-3D/blob/master/CAD1.jpg) | ![](https://github.com/SmartestKen/Flyception-3D/blob/master/CAD2.png) |
+| galvo component | ![](https://github.com/SmartestKen/Flyception-3D/blob/master/CAD1.jpg) | 
+| high-speed camera component | ![](https://github.com/SmartestKen/Flyception-3D/blob/master/CAD2.png) |
+| resulting assembly | ![](https://github.com/SmartestKen/Flyception-3D/blob/master/CAD_combined.jpg) |
 
-which give the following galvo-camera assembly.
 
-![](https://github.com/SmartestKen/Flyception-3D/blob/master/CAD_combined.jpg)
+
 
 The following are specifications of some hardware
 
